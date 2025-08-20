@@ -23,17 +23,14 @@ export function AboutSection() {
             transition={{ duration: 0.6 }}
             className="space-y-6"
           >
-            <p className="text-xl text-slate-300 leading-relaxed">
-              Hi, I'm Komang David, a passionate full-stack developer with over
-              4 years of experience crafting digital solutions that make a
-              difference. I specialize in building scalable web applications and
-              have a deep love for clean code and innovative problem-solving.
-            </p>
-            <p className="text-lg text-slate-400 leading-relaxed">
-              When I'm not coding, you'll find me contributing to open source
-              projects, mentoring aspiring developers, or exploring the latest
-              in AI and machine learning. I believe technology should be
-              accessible and inclusive for everyone.
+            <p className="text-xl text-slate-300 leading-relaxed text-justify">
+              &emsp;Computer Science student specializing in Software Engineering with
+              a focus on Back End and Full Stack development. Experienced in
+              implementing robust back-end systems, while also building clean
+              and functional front-end interfaces. Proven track record across 4+
+              real-world projects and 3+ awards in software development
+              competitions. Strong in problem-solving, collaboration, and
+              adapting quickly to new challenges.
             </p>
           </motion.div>
 

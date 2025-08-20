@@ -147,32 +147,31 @@ export function HeroSection() {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="flex flex-col sm:flex-row gap-6 justify-center"
         >
-          <motion.a
-            href="https://docs.google.com/document/d/1UUIJdJooNYFMZ6LUZSZivp5_ZwsI_qAYU5pZhoTdFcg"
-            target="_blank"
-            rel="noopener noreferrer"
-            whileHover={{
-              scale: 1.05,
-              boxShadow: "0 20px 40px rgba(16, 185, 129, 0.3)",
-            }}
-            whileTap={{ scale: 0.95 }}
-            className="flex items-center gap-4 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 px-10 py-5 rounded-2xl font-bold text-lg transition-all duration-300 shadow-2xl"
-          >
-            <Download size={24} />
-            Get My Resume
-          </motion.a>
-          <motion.a
+            <motion.a
+              href="/Komang David Dananjaya Suartana - Resume.pdf"
+              download
+              whileHover={{
+                scale: 1.05,
+                boxShadow: "0 20px 40px rgba(16, 185, 129, 0.3)",
+              }}
+              whileTap={{ scale: 0.95 }}
+              className="flex items-center gap-4 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 px-10 py-5 rounded-2xl font-bold text-lg transition-all duration-300 shadow-2xl min-w-[275px] justify-center"
+            >
+              <Download size={24} />
+              Get My Resume
+            </motion.a>
+            <motion.a
             href="mailto:kmdavidds@gmail.com"
             whileHover={{
               scale: 1.05,
               boxShadow: "0 20px 40px rgba(100, 116, 139, 0.2)",
             }}
             whileTap={{ scale: 0.95 }}
-            className="flex items-center gap-4 border-2 border-slate-500 text-slate-300 hover:bg-slate-500/10 hover:border-slate-400 px-10 py-5 rounded-2xl font-bold text-lg transition-all duration-300"
-          >
+            className="flex items-center gap-4 border-2 border-slate-500 text-slate-300 hover:bg-slate-500/10 hover:border-slate-400 px-10 py-5 rounded-2xl font-bold text-lg transition-all duration-300 min-w-[275px] justify-center"
+            >
             <Mail size={24} />
             Email Me
-          </motion.a>
+            </motion.a>
         </motion.div>
 
         <motion.div

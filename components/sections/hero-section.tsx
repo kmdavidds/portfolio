@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export function HeroSection() {
   return (
-    <section className="min-h-screen flex items-center justify-center px-6 relative">
+    <section id="home" className="min-h-screen flex items-center justify-center px-6 relative md:pt-20">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}

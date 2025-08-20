@@ -5,7 +5,7 @@ import { techStack as ts } from "@/components/data/tech-stack";
 export function AboutSection() {
   const techStack = ts;
   return (
-    <section className="py-24 px-6 relative">
+    <section id="about" className="py-24 px-6 relative">
       <div className="max-w-7xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 30 }}

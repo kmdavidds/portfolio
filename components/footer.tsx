@@ -3,7 +3,7 @@ import { Mail, MapPin, MessageCircle } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer className="py-20 px-6 relative border-t border-navy-700/50 bg-navy-900/30 backdrop-blur-sm">
+    <footer id="contact" className="py-20 px-6 relative border-t border-navy-700/50 bg-navy-900/30 backdrop-blur-sm">
       <div className="max-w-5xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

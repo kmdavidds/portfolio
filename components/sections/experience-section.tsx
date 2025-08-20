@@ -12,7 +12,7 @@ export function ExperienceSection() {
   const workExperience = we;
   const volunteerExperience = ve;
   return (
-    <section className="py-24 px-6 relative">
+    <section id="experience" className="py-24 px-6 relative">
       <div className="max-w-6xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 30 }}

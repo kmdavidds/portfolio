@@ -4,7 +4,6 @@ import { Footer } from "@/components/footer"
 import { AboutSection } from "@/components/sections/about-section"
 import { ExperienceSection } from "@/components/sections/experience-section"
 import { HeroSection } from "@/components/sections/hero-section"
-import { ProjectsSection } from "@/components/sections/projects-section"
 import { SnowflakesBackground } from "@/components/snowflakes-background"
 
 export default function Portfolio() {
@@ -17,8 +16,6 @@ export default function Portfolio() {
       <AboutSection />
 
       <ExperienceSection />
-
-      <ProjectsSection />
 
       <Footer />
     </div>

@@ -24,7 +24,7 @@ export function AboutSection() {
             className="space-y-6"
           >
             <p className="text-xl text-slate-300 leading-relaxed">
-              Hi, I'm Rafael Amaral, a passionate full-stack developer with over
+              Hi, I'm Komang David, a passionate full-stack developer with over
               4 years of experience crafting digital solutions that make a
               difference. I specialize in building scalable web applications and
               have a deep love for clean code and innovative problem-solving.

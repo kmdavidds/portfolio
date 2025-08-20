@@ -59,7 +59,6 @@ export const ProjectCard = ({
         {description}
       </p>
 
-      {/* Enhanced Tech Stack */}
       <div className="flex flex-wrap gap-3 mb-8">
         {techStack.map((tech, index) => (
           <motion.span
@@ -72,7 +71,6 @@ export const ProjectCard = ({
         ))}
       </div>
 
-      {/* Enhanced Action Buttons */}
       <div className="flex gap-4">
         {demoLink && (
           <motion.a

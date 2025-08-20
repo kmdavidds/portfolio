@@ -27,7 +27,6 @@ export const ExperienceItem = ({
     transition={{ duration: 0.6, delay }}
     className="relative flex gap-6 group"
   >
-    {/* Enhanced Timeline with gradient and glow */}
     <div className="flex flex-col items-center">
       <motion.div
         whileHover={{ scale: 1.2 }}
@@ -50,7 +49,6 @@ export const ExperienceItem = ({
       )}
     </div>
 
-    {/* Enhanced Content Card */}
     <motion.div
       whileHover={{ x: 10, scale: 1.02 }}
       className="flex-1 pb-8 bg-navy-800/30 border border-navy-600/30 rounded-xl p-6 backdrop-blur-sm shadow-xl group-hover:shadow-2xl transition-all duration-300"

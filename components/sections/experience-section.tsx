@@ -23,7 +23,6 @@ export function ExperienceSection() {
           Experience
         </motion.h2>
 
-        {/* Experience Toggle */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -62,7 +61,6 @@ export function ExperienceSection() {
           </div>
         </motion.div>
 
-        {/* Experience Timeline */}
         <motion.div
           key={experienceType}
           initial={{ opacity: 0, x: 50 }}

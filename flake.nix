@@ -19,6 +19,7 @@
         packages = [
           pkgs.gnumake
           pkgs.nodejs
+          pkgs.pnpm
         ];
 
       };

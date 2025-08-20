@@ -31,32 +31,32 @@ export function ExperienceSection() {
         >
           <div className="bg-navy-800/50 border border-navy-600/50 rounded-2xl p-2 backdrop-blur-sm">
             <div className="flex gap-2">
-              <motion.button
+                <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setExperienceType("work")}
-                className={`flex items-center gap-3 px-8 py-4 rounded-xl font-semibold transition-all duration-300 ${
+                className={`flex items-center justify-center min-w-[175px] gap-3 px-8 py-4 rounded-xl font-semibold transition-all duration-300 ${
                   experienceType === "work"
-                    ? "bg-gradient-to-r from-emerald-600 to-teal-600 text-white shadow-lg"
-                    : "text-slate-400 hover:text-slate-300"
+                  ? "bg-gradient-to-r from-emerald-600 to-teal-600 text-white shadow-lg"
+                  : "text-slate-400 hover:text-slate-300"
                 }`}
-              >
+                >
                 <Briefcase size={20} />
-                Work Experience
-              </motion.button>
-              <motion.button
+                Work
+                </motion.button>
+                <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setExperienceType("volunteer")}
-                className={`flex items-center gap-3 px-8 py-4 rounded-xl font-semibold transition-all duration-300 ${
+                className={`flex items-center justify-center min-w-[175px] gap-3 px-8 py-4 rounded-xl font-semibold transition-all duration-300 ${
                   experienceType === "volunteer"
-                    ? "bg-gradient-to-r from-rose-600 to-pink-600 text-white shadow-lg"
-                    : "text-slate-400 hover:text-slate-300"
+                  ? "bg-gradient-to-r from-rose-600 to-pink-600 text-white shadow-lg"
+                  : "text-slate-400 hover:text-slate-300"
                 }`}
-              >
+                >
                 <Heart size={20} />
-                Volunteer Work
-              </motion.button>
+                Volunteer
+                </motion.button>
             </div>
           </div>
         </motion.div>

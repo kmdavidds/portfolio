@@ -1,40 +1,15 @@
-import { Award, Heart, Users } from "lucide-react";
+import { Heart } from "lucide-react";
 
 export const volunteerExperience = [
   {
-    time: "Mar 2022 - Present",
-    company: "Code for Good Brazil",
-    title: "Technical Lead",
+    time: "Dec 2024 - Present",
+    company: "Basic Computing Community - Kota Malang, East Java",
+    title: "Lead Back-end Developer",
     icon: <Heart className="text-white" size={20} />,
     results: [
-      "Led team of 12 volunteers building apps for 3 local NGOs",
-      "Developed donation platform that raised R$50,000+ for children's education",
-      "Organized monthly coding workshops for 100+ underprivileged youth",
-      "Mentored 20+ aspiring developers through career transition programs",
-    ],
-  },
-  {
-    time: "Sep 2021 - Feb 2022",
-    company: "Digital Inclusion Project",
-    title: "Frontend Developer",
-    icon: <Users className="text-white" size={20} />,
-    results: [
-      "Built accessible learning platform serving 500+ elderly users",
-      "Implemented multilingual support for Portuguese and Spanish speakers",
-      "Created interactive tutorials reducing learning curve by 40%",
-      "Collaborated with UX researchers to improve user experience",
-    ],
-  },
-  {
-    time: "Jan 2021 - Aug 2021",
-    company: "Open Source Contributor",
-    title: "Community Developer",
-    icon: <Award className="text-white" size={20} />,
-    results: [
-      "Contributed to 8 open source projects with 500+ GitHub stars",
-      "Fixed 25+ bugs and implemented 10+ new features",
-      "Reviewed 100+ pull requests and mentored new contributors",
-      "Maintained documentation for developer onboarding processes",
+      "Designed and developed a 10+ topic back-end curriculum covering Go, REST APIs, testing, logging, caching, and real-time systems, used in training sessions for 15+ members.",
+      "Taught back-end fundamentals and Go programming to 10+ interns through an interactive workshop and live coding, improving back-end literacy across the community.",
+      "Led an internal back-end project with a team of 3 developers, applying curriculum content in practice and simulating real-world software team workflows.",
     ],
   },
 ];

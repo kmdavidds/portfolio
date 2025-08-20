@@ -26,7 +26,11 @@ export const TechPill = ({
       alt={name}
       width={24}
       height={24}
-      className="text-lg"
+      className="text-lg filter grayscale contrast-150"
+      style={{
+        filter:
+          "grayscale(1) contrast(1.2) sepia(1) hue-rotate(110deg) saturate(2)",
+      }}
     />
     {name}
   </motion.div>

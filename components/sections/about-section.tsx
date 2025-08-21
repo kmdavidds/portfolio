@@ -24,13 +24,13 @@ export function AboutSection() {
             className="space-y-6"
           >
             <p className="text-xl text-slate-300 leading-relaxed text-justify">
-              &emsp;Computer Science student specializing in Software Engineering with
-              a focus on Back End and Full Stack development. Experienced in
-              implementing robust back-end systems, while also building clean
-              and functional front-end interfaces. Proven track record across 4+
-              real-world projects and 3+ awards in software development
-              competitions. Strong in problem-solving, collaboration, and
-              adapting quickly to new challenges.
+              &emsp;Computer Science student specializing in Software
+              Engineering with a focus on Back End and Full Stack development.
+              Proven track record across 4+ real-world projects and 3+ awards in
+              software development competitions. Experienced in implementing
+              robust back-end systems, while also building clean and functional
+              front-end interfaces. Strong in problem-solving, collaboration,
+              and adapting quickly to new challenges.
             </p>
           </motion.div>
 

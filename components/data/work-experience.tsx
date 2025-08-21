@@ -3,7 +3,7 @@ import { Book, BookUser, Briefcase, Code, Rocket, Shield, TreePine } from "lucid
 export const workExperience = [
   {
     time: "Apr 2025 - Present",
-    company: "PolisiMuda - Singaraja, Bali",
+    company: "PolisiMuda.com - Singaraja, Bali",
     title: "Fullstack Developer",
     icon: <Shield className="text-white" size={20} />,
     results: [
